@@ -1,0 +1,3 @@
+﻿  second.cpp
+C:\Users\laril\source\repos\4_Harjoitukset_190926_2\second.cpp(7,17): warning C4101:  'salary_tax': unreferenced local variable
+  4_Harjoitukset_190926_2.vcxproj -> C:\Users\laril\source\repos\4_Harjoitukset_190926\Debug\4_Harjoitukset_190926_2.exe

@@ -1,0 +1,10 @@
+﻿  hello_world.cpp
+hello_world.obj : error LNK2001: unresolved external symbol "public: static unsigned int const * const fmt::internal::BasicData<void>::POWERS_OF_10_32" (?POWERS_OF_10_32@?$BasicData@X@internal@fmt@@2QBIB)
+hello_world.obj : error LNK2001: unresolved external symbol "public: void __cdecl fmt::internal::ArgMap<char>::init(class fmt::ArgList const &)" (?init@?$ArgMap@D@internal@fmt@@QEAAXAEBVArgList@3@@Z)
+hello_world.obj : error LNK2001: unresolved external symbol "private: struct fmt::internal::Arg __cdecl fmt::internal::FormatterBase::do_get_arg(unsigned int,char const * &)" (?do_get_arg@FormatterBase@internal@fmt@@AEAA?AUArg@23@IAEAPEBD@Z)
+hello_world.obj : error LNK2001: unresolved external symbol "void __cdecl fmt::internal::report_unknown_type(char,char const *)" (?report_unknown_type@internal@fmt@@YAXDPEBD@Z)
+hello_world.obj : error LNK2001: unresolved external symbol "public: static int __cdecl fmt::internal::CharTraits<char>::format_float<double>(char *,unsigned __int64,char const *,unsigned int,int,double)" (??$format_float@N@?$CharTraits@D@internal@fmt@@SAHPEAD_KPEBDIHN@Z)
+hello_world.obj : error LNK2001: unresolved external symbol "public: static int __cdecl fmt::internal::CharTraits<char>::format_float<long double>(char *,unsigned __int64,char const *,unsigned int,int,long double)" (??$format_float@O@?$CharTraits@D@internal@fmt@@SAHPEAD_KPEBDIHO@Z)
+hello_world.obj : error LNK2001: unresolved external symbol "public: static char const * const fmt::internal::BasicData<void>::DIGITS" (?DIGITS@?$BasicData@X@internal@fmt@@2QBDB)
+hello_world.obj : error LNK2001: unresolved external symbol "public: static unsigned __int64 const * const fmt::internal::BasicData<void>::POWERS_OF_10_64" (?POWERS_OF_10_64@?$BasicData@X@internal@fmt@@2QB_KB)
+C:\Users\laril\source\repos\TAMK-apps\x64\Release\TAMK-apps.exe : fatal error LNK1120: 8 unresolved externals

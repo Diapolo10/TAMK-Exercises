@@ -1,0 +1,3 @@
+﻿  second.cpp
+C:\Users\laril\source\repos\3_Harjoitukset_2_190919\second.cpp(11,18): warning C4018:  '<=': signed/unsigned mismatch
+  3_Harjoitukset_2_190919.vcxproj -> C:\Users\laril\source\repos\3_Harjoitukset_190919\Debug\3_Harjoitukset_2_190919.exe
