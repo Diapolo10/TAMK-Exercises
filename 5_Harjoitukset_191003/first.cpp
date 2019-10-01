@@ -1,14 +1,14 @@
 #include <iostream>
-#include <random>
 #include <vector>
 
 using std::vector;
 
-vector<long> forwards_for_loop(long n) {
+vector<long> gen_positive_negative_range(long n) {
+	/* n : absolute distance from zero to either end */
 	vector<long> nums;
 	long start, stop;
 	
-	start = stop = n / 2;
+	start = stop = n;
 
 	for (long i = -start; i <= stop; ++i) {
 		nums.push_back(-i);
@@ -17,38 +17,12 @@ vector<long> forwards_for_loop(long n) {
 	return nums;
 }
 
-vector<long> backwards_for_loop(long n) {
+vector<long> gen_even(long n) {
+	/* n : upper limit for generated even numbers */
 	vector<long> nums;
-	long start, stop;
-	
-	start = stop = n / 2;
 
-	for (long i = start; i >= -stop; --i) {
+	for (long i = 2; i <= n; i += 2) {
 		nums.push_back(i);
-	}
-
-	return nums;
-}
-
-vector<long> forwards_while_loop(long n) {
-	vector<long> nums;
-	long start = -n / 2;
-	long stop =   n / 2;
-
-	while (start <= stop) {
-		nums.push_back(-start++);
-	}
-
-	return nums;
-}
-
-vector<long> backwards_while_loop(long n) {
-	vector<long> nums;
-	long start = n / 2;
-	long stop = -n / 2;
-
-	while (start >= stop) {
-		nums.push_back(start--);
 	}
 
 	return nums;
@@ -56,6 +30,7 @@ vector<long> backwards_while_loop(long n) {
 
 template <class T>
 void print_vector(vector<T> vec) {
+	/* Prints out the contents of any vector type T, separated by a space. Adds a newline in the end. */
 	for (auto num : vec) {
 		std::cout << num << " ";
 	}
@@ -63,30 +38,12 @@ void print_vector(vector<T> vec) {
 }
 
 int main(void) {
+	
+	// First objective; generate and print integers from -5 to 5
+	print_vector(gen_positive_negative_range(5));
 
-	std::random_device dev;
-	std::mt19937 rng(dev());
-	std::uniform_int_distribution<std::mt19937::result_type> dist4(1, 4); // distribution in range [1, 4]
-
-	int choice = dist4(rng);
-
-	switch (choice) {
-	    case 1:
-			print_vector(forwards_for_loop(10));
-		break;
-		case 2:
-			print_vector(backwards_for_loop(10));
-		break;
-		case 3:
-			print_vector(forwards_while_loop(10));
-		break;
-		case 4:
-			print_vector(backwards_while_loop(10));
-		break;
-		default:
-			std::cerr << "SNAFU\n";
-		break;
-	}
+	// Second objective; generate and print all even numbers from 1 to 50
+	print_vector(gen_even(50));
 
 	return EXIT_SUCCESS;
 }
