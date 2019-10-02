@@ -12,7 +12,7 @@ int main(void) {
 
 	while (true) {
 
-		std::cout << u8"Tilillä on rahaa " << (long)balance << " Euroa.\n"s;
+		std::cout << u8"Tilillä on rahaa "s << (long)balance << u8" Euroa.\n"s;
 
 		std::cout << u8"Valitse toiminto (1. Talleta, 2. Nosta, 3. Lopeta): "s;
 		std::cin >> choice;
@@ -69,4 +69,7 @@ int main(void) {
 		std::cout << std::endl;
 
 	}
+
+	// The program should never exit the main loop except when the user requests it
+	return EXIT_FAILURE;
 }

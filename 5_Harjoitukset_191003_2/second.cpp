@@ -16,10 +16,11 @@ long long get_sum(vector<T> nums) {
 	return result;
 }
 
-vector<long> get_input(void) {
+template <class T>
+vector<T> get_input(void) {
 	/* Gets input from the user; returns a vector of long numbers. */
-	vector<long> nums;
-	long input = -1L;
+	vector<T> nums;
+	T input = -1L;
 	long num_counter = 1L;
 
 	std::cout << "Enter integers to calculate their sum. Entering 0 returns the sum.\n\n";
@@ -37,5 +38,6 @@ vector<long> get_input(void) {
 }
 
 int main(void) {
-	std::cout << "Sum of entered numbers: " << get_sum(get_input()) << "\n";
+	std::cout << "Sum of entered numbers: " << get_sum(get_input<long>()) << "\n";
+	return EXIT_SUCCESS;
 }
