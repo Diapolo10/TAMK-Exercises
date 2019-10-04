@@ -6,7 +6,8 @@ using std::vector;
 template <class T>
 long long get_sum(vector<T> nums) {
 
-	// I know I could've just used a counter variable instead of storing all numbers in a vector, but this was more interesting.
+	// I know I could've just used a counter variable instead of storing all numbers in a vector,
+	// but this was more interesting.
 	long long result = 0LL;
 
 	for (auto num : nums) {

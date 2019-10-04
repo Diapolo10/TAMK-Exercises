@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_Harjoitukset_191003_4", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_Harjoitukset_191003_Bonus", "..\5_Harjoitukset_191003_Bonus\5_Harjoitukset_191003_Bonus.vcxproj", "{CAB765F6-4AC3-4927-AA7F-B7FC815DC96F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tamk_lib", "..\tamk_lib\tamk_lib.vcxproj", "{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{CAB765F6-4AC3-4927-AA7F-B7FC815DC96F}.Release|x64.Build.0 = Release|x64
 		{CAB765F6-4AC3-4927-AA7F-B7FC815DC96F}.Release|x86.ActiveCfg = Release|Win32
 		{CAB765F6-4AC3-4927-AA7F-B7FC815DC96F}.Release|x86.Build.0 = Release|Win32
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Debug|x64.ActiveCfg = Debug|x64
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Debug|x64.Build.0 = Debug|x64
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Debug|x86.Build.0 = Debug|Win32
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Release|x64.ActiveCfg = Release|x64
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Release|x64.Build.0 = Release|x64
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Release|x86.ActiveCfg = Release|Win32
+		{A7E4F6E4-F7EE-4F0C-B1DB-7524A12A4139}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
