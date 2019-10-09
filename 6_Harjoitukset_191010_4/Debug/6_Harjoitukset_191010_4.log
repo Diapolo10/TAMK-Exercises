@@ -1,0 +1,3 @@
+﻿  fourth.cpp
+D:\software_projects\Python\TAMK-Exercises\6_Harjoitukset_191010_4\fourth.cpp(11,26): error C2664: 'std::ios_base &std::nouppercase(std::ios_base &)': cannot convert argument 1 from 'std::string' to 'std::ios_base &'
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\ios(252,37): message : see declaration of 'std::nouppercase'
