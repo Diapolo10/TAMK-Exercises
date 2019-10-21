@@ -1,4 +1,0 @@
-﻿  fifth.cpp
-fifth.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
-  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
-  6_Harjoitukset_191010_5.vcxproj -> C:\Users\laril\source\repos\6_Harjoitukset_191010\x64\Release\6_Harjoitukset_191010_5.exe
