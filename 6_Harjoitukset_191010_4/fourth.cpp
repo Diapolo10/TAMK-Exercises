@@ -6,8 +6,11 @@ using std::string;
 using namespace std::string_literals;
 
 int main(void) {
+
 	string user_input;
+	
 	do {
+	
 		std::cout << u8"Valitse laskutoimitus (1=neliöjuuri, 2=ln, 3=exp, 4=tan, L=lopetus): "s;
 		std::cin >> user_input;
 
@@ -31,6 +34,7 @@ int main(void) {
 		else if (user_input == u8"4"s) {
 			std::cout << u8"Syöttämäsi luvun tangentti on: "s << std::tan(num);
 		}
+
 	}
 	while (true);
 }

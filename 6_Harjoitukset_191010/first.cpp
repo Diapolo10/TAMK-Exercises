@@ -19,5 +19,6 @@ int main(void) {
 
 	// Part b
 	print_even(20);
+
 	return EXIT_SUCCESS;
 }
