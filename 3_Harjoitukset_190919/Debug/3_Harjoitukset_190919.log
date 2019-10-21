@@ -1,3 +1,0 @@
-﻿  first.cpp
-C:\Users\laril\source\repos\3_Harjoitukset_190919\first.cpp(7,37): warning C4455:  'operator ""s': literal suffix identifiers that do not start with an underscore are reserved
-  3_Harjoitukset_190919.vcxproj -> C:\Users\laril\source\repos\3_Harjoitukset_190919\Debug\3_Harjoitukset_1_190919.exe

@@ -1,3 +1,0 @@
-﻿  third.cpp
-D:\software_projects\Python\TAMK-Exercises\6_Harjoitukset_191010_3\third.cpp(30,39): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Word'
-D:\software_projects\Python\TAMK-Exercises\6_Harjoitukset_191010_3\third.cpp(30,24): message : Invalid aggregate initialization
