@@ -73,15 +73,6 @@ long double count_pi_multithreaded(size_t n) {
 			stop = n;
 		}
 		else {
-			stop = (n / nthreads) * (i + 1ULL);
-		}
-		DEBUG("Thread #" << i + 1 << ": start: " << start << " stop: " << stop);
-		threadpool.push_back(std::async(count_pi_range, StartStop{ start, stop, i+1ULL }));
-	}
-
-	// Join the results of the threadpool
-	for (auto &thread : threadpool) {
-		auto thread_result = thread.get();
 		DEBUG(thread_result);
 		result += thread_result;
 	}
