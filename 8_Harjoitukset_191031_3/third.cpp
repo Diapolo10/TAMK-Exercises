@@ -5,6 +5,7 @@ using namespace std::string_literals;
 
 float virta(float jannite, float resistanssi) {
 	// U == R*I -> I == U/R
+
 	return jannite / resistanssi;
 }
 

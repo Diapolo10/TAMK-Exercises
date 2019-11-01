@@ -28,10 +28,6 @@ long double count_pi_range(StartStop start_stop) {
 	long double result = 0.0;
 	unsigned long long start=start_stop.start, stop=start_stop.stop;
 
-	unsigned long long quarter = stop - start / 4;
-	unsigned long long half    = stop - start / 2;
-	unsigned long long three_quarters = ((stop - start) * 3) / 4;
-
 	for (start; start <= stop; ++start) {
 
 		if (start % 2 && start != 0) {
