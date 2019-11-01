@@ -31,4 +31,5 @@ int main(void) {
 	std::cin >> power;
 
 	sulake(power);
+	return 0;
 }
