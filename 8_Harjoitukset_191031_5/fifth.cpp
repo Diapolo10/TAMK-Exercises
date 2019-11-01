@@ -17,7 +17,7 @@ int main() {
 
 	// Creating a random number distribution
 	std::random_device rd;
-	std::mt19937 mt(rd());
+	std::mt19937 mt(rd()); // We use a random 32-bit seed, because we don't need runs to be repeatable
 	std::uniform_int_distribution<int> dist(MIN_VALUE, MAX_VALUE);
 
 	// Vector for storing the random numbers
@@ -35,7 +35,7 @@ int main() {
 		}
 	}
 
-	// Sort the results for readability
+	// Sort the results for readability, because why not?
 	std::sort(lottery_numbers.begin(), lottery_numbers.end());
 
 	// Print out the numbers
