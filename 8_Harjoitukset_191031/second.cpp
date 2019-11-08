@@ -53,7 +53,7 @@ void third(void) {
 	float fuel_consumption{};
 	float fuel_price{};
 
-	std::cout << u8"Kuljettu matka kilometrein�: "s;
+	std::cout << u8"Kuljettu matka kilometreinä: "s;
 	std::cin >> travel_distance;
 
 	std::cout << u8"Auton polttoaineenkulutus (litraa per kilometri): "s;
@@ -62,7 +62,7 @@ void third(void) {
 	std::cout << u8"Polttoaineen hinta: "s;
 	std::cin >> fuel_price;
 
-	std::cout << u8"Matkan polttoainekustannukset ovat " << nonstd::MatkanHinta(travel_distance, fuel_consumption, fuel_price) << u8"�.\n"s;
+	std::cout << u8"Matkan polttoainekustannukset ovat " << nonstd::MatkanHinta(travel_distance, fuel_consumption, fuel_price) << u8"€.\n"s;
 	std::cout << std::endl;
 }
 
@@ -70,9 +70,9 @@ void fourth(void) {
 
 	int work_hours{};
 
-	std::cout << u8"Viikon ty�tunnit: "s;
+	std::cout << u8"Viikon työtunnit: "s;
 	std::cin >> work_hours;
 
-	std::cout << u8"Viikon bruttoansiot: "s << nonstd::palkka(work_hours) << "�.\n";
+	std::cout << u8"Viikon bruttoansiot: "s << nonstd::palkka(work_hours) << "€.\n";
 	std::cout << std::endl;
 }
