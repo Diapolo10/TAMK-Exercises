@@ -7,7 +7,7 @@ static const double OVERTIME_SALARY {WEEKLY_WORK_HOURS / 2};
 
 namespace nonstd {
 
-	// Calculates the square of a given int, returning it as a long long
+	// Calculates the square of a given number
 	long double Nelio(double num) {
 		return num * num;
 	}
@@ -24,7 +24,6 @@ namespace nonstd {
 		return (d / c) * p;
 	}
 
-	// Due to the assignment requiring the use of int here, I cannot do anything to prevent overflows
 	double palkka(double tuntimaara) {
 
 		double base_salary{ BASE_SALARY };

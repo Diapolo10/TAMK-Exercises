@@ -4,8 +4,11 @@
 using std::string;
 using namespace std::string_literals;
 
+// Config
+const int VOLTAGE = 220;
+
 void sulake(double teho) {
-	double current = teho / 220;
+	double current = teho / VOLTAGE;
 	string result {};
 
 	if ((current - 10) <= 0) {
