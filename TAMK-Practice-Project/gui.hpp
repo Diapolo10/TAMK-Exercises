@@ -11,8 +11,8 @@ using namespace std::string_literals;
 class GameScreen
 {
 public:
-	GameScreen();
-	~GameScreen();
+    GameScreen();
+    ~GameScreen();
 
 private:
 

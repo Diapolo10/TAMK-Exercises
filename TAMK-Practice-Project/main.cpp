@@ -12,13 +12,13 @@ using std::string;
 // this is a 'big' project.
 
 int main() {
-	tetris::global::GameState state{ true };
-	string key;
+    tetris::global::GameState state{ true };
+    string key;
 
-	while (state.running) {
-		key = getKeyboardInput(state);
-		if (key != "") {
-			std::cout << key << " was pressed" << std::endl;
-		}
-	}
+    while (state.running) {
+        key = getKeyboardInput(state);
+        if (key != "") {
+            std::cout << key << " was pressed" << std::endl;
+        }
+    }
 }
