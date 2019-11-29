@@ -129,6 +129,7 @@
     <ClInclude Include="constants.hpp" />
     <ClInclude Include="gui.hpp" />
     <ClInclude Include="input.hpp" />
+    <ClInclude Include="tetrominos.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
