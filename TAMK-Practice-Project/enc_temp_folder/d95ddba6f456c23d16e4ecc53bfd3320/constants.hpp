@@ -27,7 +27,7 @@ namespace tetris {
         const string SQUARE_UP_BLOCK{ CHARS_ASCII.square_up };
         const string SQUARE_DOWN_BLOCK{ CHARS_ASCII.square_down };
 
-		array<string, 16> ANSI_FOREGROUND_COLOURS{
+		array<string, 16> ANSI_COLOURS{
 			// Dim colours
 			u8"\x1b[30m", // black
 			u8"\x1b[31m", // red
