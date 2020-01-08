@@ -26,7 +26,7 @@ int main() {
         key = tetris::input::getKeyboardInput(state);
         if (key != "") {
             std::cout << ANSI_FOREGROUND_COLOURS[colour++] << key << " was pressed" << std::endl;
-			if (colour == ANSI_COLOURS.size()) {
+			if (colour == ANSI_FOREGROUND_COLOURS.size()) {
 				colour = 0;
 			}
         }

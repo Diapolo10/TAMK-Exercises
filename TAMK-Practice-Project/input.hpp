@@ -60,7 +60,7 @@ namespace tetris {
 
                 }*/
                 try {
-                    result = mapping::keyboard_keys.at(event.wVirtualKeyCode);
+                    result = tetris::mapping::keyboard_keys.at(event.wVirtualKeyCode);
                 }
                 catch (std::out_of_range) {
                     result = "";
